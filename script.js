@@ -17,7 +17,11 @@ const library = [
 ];
 
 const numberOfBooksRead = () => {
-  // write your code here
+  const result=0;
+	if(library.readingStatus==true){
+		result=result+1;
+		return result;
+	}
 };
 
 // Do not change the code below
